@@ -19,7 +19,7 @@ $(document).ready(function() {
         return Number(n1) % Number(n2);
     };
   };
-  
+  alert("ciao");
   $(".num-btn").click(function() {
     if($(".screen").text().indexOf(".")!==-1 && $(this).text() === ".")
       return -1;
